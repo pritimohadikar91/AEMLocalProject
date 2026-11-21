@@ -1,7 +1,7 @@
 /* header and nav layout */
 header .nav-wrapper {
   /*background-color: var(--background-color);*/
-  background-color: #ccc;
+  background-color: #000;
   width: 100%;
   z-index: 2;
   position: fixed;
@@ -51,7 +51,7 @@ header nav p {
 }
 
 header nav a:any-link {
-  color: currentcolor;
+  color: #fff;
 }
 
 /* hamburger */
@@ -179,6 +179,7 @@ header nav .nav-sections .nav-drop > button {
   position: relative;
   padding-right: 16px;
   cursor: pointer;
+  color:#fff;
 }
 
 header nav .nav-sections .nav-drop > button::after {
