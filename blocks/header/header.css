@@ -247,8 +247,8 @@ header nav .nav-sections .nav-drop > button[aria-expanded='false'] + ul {
     width: 200px;
     top: 150%;
     padding: 16px;
-    background-color:#000
-    /* white-space: initial; */
+    background-color:var(--light-color);
+    white-space: initial;
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li > ul::before {
